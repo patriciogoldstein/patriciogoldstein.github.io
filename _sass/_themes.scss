@@ -10,8 +10,8 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-theme-color: #1756a9;
+  --global-hover-color: #1756a9;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -195,8 +195,8 @@ html[data-theme-setting="light"] {
   content: "\f185";
   color: var(--global-text-color);
   clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
-  right: -1.5px; /* slight overflow to avoid right-edge clipping */
-  transform: translateX(-1px); /* visually re-center the sun half */
+  right: -1.5px;
+  transform: translateX(-1px);
 }
 
 #light-toggle:hover .fa-half-sun-moon::before {
