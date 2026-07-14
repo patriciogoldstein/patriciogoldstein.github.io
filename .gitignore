@@ -1,5 +1,8 @@
 _site
 .bundle
+# Local Claude Code config / session state / notes — never push
+.claude/
+CLAUDE.md
 .DS_store
 .idea
 .jekyll-cache
