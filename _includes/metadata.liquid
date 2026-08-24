@@ -221,8 +221,12 @@
       {% when 'zotero_username' %}
         {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'cv_pdf' %}
+        {% comment %} Local CV path, not an external profile - keep it out of sameAs {% endcomment %}
       {% else %}
-        {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% if social[1].url %}
+          {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% endif %}
     {% endcase %}
   {% endfor %}
 
