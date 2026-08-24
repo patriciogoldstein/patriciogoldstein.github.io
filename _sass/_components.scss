@@ -259,3 +259,50 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// Collapsible paper abstracts / summaries
+
+details.paper-abstract {
+  margin: 0.4rem 0 1.5rem;
+
+  > summary {
+    cursor: pointer;
+    display: inline-block;
+    list-style: none; // hide default marker (Firefox)
+    color: var(--global-theme-color);
+    font-size: 0.9rem;
+    user-select: none;
+
+    &::-webkit-details-marker {
+      display: none; // hide default marker (Safari/Chrome)
+    }
+
+    &::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.4rem;
+      transition: transform 0.15s ease-in-out;
+    }
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  &[open] > summary {
+    margin-bottom: 0.5rem;
+
+    &::before {
+      transform: rotate(90deg);
+    }
+  }
+
+  > p {
+    margin: 0;
+    padding-left: 0.85rem;
+    border-left: 2px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    text-align: justify;
+  }
+}
