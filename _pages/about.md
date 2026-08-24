@@ -38,9 +38,6 @@ latest_posts:
 <p>Governments have long used sovereign lending as a tool of economic statecraft, conditioning finance on foreign policy concessions. This paper studies how debt contracts are designed when lending serves geopolitical objectives, and what this implies for the allocation, terms, and timing of official credit. We develop a model in which an official lender offers take-it-or-leave-it contracts to a cross-section of borrowing countries, with concessional terms and pro-poor allocation of credit emerging endogenously from the interaction between economic and geopolitical motives. Empirically, we use large language models to identify foreign policy concessions, events that benefit one state and impose a cost or policy shift on another, in a corpus of bilateral treaties drawn from national and UN registries and in the published record of American diplomacy. We show that concessions increase with official lending and use the model to price them from observed loan terms.</p>
 </details>
 
-*U.S. Safe Asset Provision: Winners and Losers*
-<br>Patricio Goldstein and Nick Zevanove.
-
 *The Cognitive Costs of Inflation*
 <br>Patricio Goldstein.
 
@@ -48,3 +45,6 @@ latest_posts:
 <summary>Summary</summary>
 <p>This paper studies the cognitive costs of inflation. Households pre-commit to expenditure shares across products before making purchases (‘mental budgeting’) and choose those shares using imperfect memories of previously paid prices. When purchases are infrequent, inflation between purchase occasions distorts perceived relative prices. This generates persistent expenditure misallocation even when prices are fully flexible and inflation is steady. We derive a closed-form second-order approximation for the consumption-equivalent welfare loss and calibrate the key sufficient statistic using household purchase microdata and evidence on perceived inflation. The implied welfare costs of 10 percent steady inflation can be up to 4.5 percent of consumption expenditures, significantly above standard estimates from money-demand and nominal-rigidity channels.</p>
 </details>
+
+*U.S. Safe Asset Provision: Winners and Losers*
+<br>Patricio Goldstein and Nick Zevanove.
