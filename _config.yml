@@ -180,6 +180,12 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # Search Console verification file: must stay reachable, but keep it out of
+  # the sitemap so Google doesn't index a contentless page.
+  - scope:
+      path: "google474eac5483bbfb33.html"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
