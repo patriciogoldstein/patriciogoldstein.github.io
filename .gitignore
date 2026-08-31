@@ -16,3 +16,12 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# LaTeX build artifacts (assets/tex -> assets/pdf/resume.pdf)
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+assets/tex/*.log
+assets/tex/*.out
+assets/tex/*.pdf

@@ -148,6 +148,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - assets/tex
   - purgecss.config.js
   - vendor
 keep_files:
